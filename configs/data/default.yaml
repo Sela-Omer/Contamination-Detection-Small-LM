@@ -1,0 +1,9 @@
+datasets:
+  - QASC
+  - StrategyQA
+
+train_ratio: 0.6
+contamination_ratio: 0.2
+eval_ratio: 0.2
+seed: 42
+cache_dir: outputs/data

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environments
+.env
+.venv
+
+# Outputs (data, models, figures, logs)
+outputs/
+*.npz
+*.arrow
+
+# Hypothesis (property testing cache)
+.hypothesis/
+
+# pytest
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+doc/latex/*.aux
+doc/latex/*.bbl
+doc/latex/*.blg
+doc/latex/*.log
+doc/latex/*.out
+doc/latex/*.pdf
+doc/latex/*.synctex.gz
+doc/latex/*.fdb_latexmk
+doc/latex/*.fls
+
+# Cloned repos (reference only, not our code)
+CDD-TED4LLMs/
+pythia/
+
+# Private assets (proposals, feedback, PDFs)
+assets/
+_dep/
+
+# Kiro specs and steering (IDE-specific)
+.kiro/
+
+# Configs gitkeep placeholder
+!configs/.gitkeep

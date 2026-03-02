@@ -1,0 +1,21 @@
+learning_rate: 2e-4
+batch_size: 8
+gradient_accumulation_steps: 4
+num_epochs: 3
+warmup_ratio: 0.1
+seed: 42
+logging_steps: 10
+output_dir: outputs/training
+
+contamination_epochs:
+  - 0
+  - 1
+  - 5
+  - 10
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.1
+  target_modules:
+    - query_key_value

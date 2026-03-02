@@ -1,0 +1,10 @@
+name: default
+description: "Default experiment configuration for CDD contamination detection"
+resume_from_checkpoint: null
+stages:
+  - data_preparation
+  - fine_tuning
+  - output_sampling
+  - detection
+  - evaluation
+  - visualization
