@@ -42,6 +42,10 @@ doc/latex/*.synctex.gz
 doc/latex/*.fdb_latexmk
 doc/latex/*.fls
 
+# Scripts and doc (kept locally, not on remote/public)
+scripts/
+doc/
+
 # Cloned repos (reference only, not our code)
 CDD-TED4LLMs/
 pythia/
