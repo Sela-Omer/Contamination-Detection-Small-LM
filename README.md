@@ -1,8 +1,14 @@
-# No Memorization, No Detection
+<p align="center">
+  <a href="paper.pdf">
+    <img src="paper_preview.png" width="600" alt="Paper preview" />
+  </a>
+</p>
 
-**Output Distribution-Based Contamination Detection in Small Language Models**
+<p align="center">
+  <a href="paper.pdf"><strong>Read the full paper (PDF)</strong></a>
+</p>
 
-Omer Sela | Tel Aviv University
+---
 
 ## Overview
 

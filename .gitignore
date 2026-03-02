@@ -42,7 +42,7 @@ doc/latex/*.synctex.gz
 doc/latex/*.fdb_latexmk
 doc/latex/*.fls
 
-# Scripts and doc (kept locally, not on remote/public)
+# Scripts and doc source (kept locally)
 scripts/
 doc/
 
