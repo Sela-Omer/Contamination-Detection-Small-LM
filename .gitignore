@@ -37,7 +37,7 @@ doc/latex/*.bbl
 doc/latex/*.blg
 doc/latex/*.log
 doc/latex/*.out
-doc/latex/*.pdf
+#doc/latex/*.pdf
 doc/latex/*.synctex.gz
 doc/latex/*.fdb_latexmk
 doc/latex/*.fls
