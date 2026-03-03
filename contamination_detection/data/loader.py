@@ -13,6 +13,9 @@ _DATASET_REGISTRY = {
     "QASC": {"path": "allenai/qasc", "split": "train"},
     "StrategyQA": {"path": "ChilleD/StrategyQA", "split": "train"},
     "GSM8K": {"path": "openai/gsm8k", "name": "main", "split": "train"},
+    "HumanEval": {"path": "openai_humaneval", "split": "test"},
+    "ARC": {"path": "allenai/ai2_arc", "name": "ARC-Challenge", "split": "train"},
+    "MATH": {"path": "qwedsacf/competition_math", "split": "train"},
 }
 
 
