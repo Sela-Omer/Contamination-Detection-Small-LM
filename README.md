@@ -55,10 +55,11 @@ tests/                            # Unit tests
 ## Citation
 
 ```bibtex
-@article{sela2026nomemorizationnodetection,
+@misc{sela2026nomemorizationnodetection,
   title={No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models},
   author={Sela, Omer},
-  year={2026}
+  year={2026},
+  url={https://github.com/Sela-Omer/Contamination-Detection-Small-LM}
 }
 ```
 
