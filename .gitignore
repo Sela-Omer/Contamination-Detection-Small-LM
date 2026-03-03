@@ -57,5 +57,8 @@ _dep/
 # Kiro specs and steering (IDE-specific)
 .kiro/
 
+# Paper PDF (use arxiv link instead)
+paper.pdf
+
 # Configs gitkeep placeholder
 !configs/.gitkeep
