@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><strong>📄 Read the paper on arXiv</strong></a>
+  <a href="https://arxiv.org/abs/2603.03203"><strong>📄 Read the paper on arXiv</strong></a>
 </p>
 
 ## Abstract
@@ -55,11 +55,14 @@ tests/                            # Unit tests
 ## Citation
 
 ```bibtex
-@misc{sela2026nomemorizationnodetection,
-  title={No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models},
-  author={Sela, Omer},
-  year={2026},
-  url={https://github.com/Sela-Omer/Contamination-Detection-Small-LM}
+@misc{sela2026memorizationdetectionoutputdistributionbased,
+      title={No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models}, 
+      author={Omer Sela},
+      year={2026},
+      eprint={2603.03203},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.03203}, 
 }
 ```
 
