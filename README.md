@@ -1,7 +1,7 @@
 # No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models
 
 <p align="center">
-  <img src="paper_preview.png" width="400" alt="Paper first page" />
+  <img src="paper_preview.png" width="550" alt="Paper first page" />
 </p>
 
 <p align="center">
