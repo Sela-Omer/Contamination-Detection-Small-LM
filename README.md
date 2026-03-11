@@ -1,4 +1,4 @@
-## No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models
+<h1 align="center">No Memorization, No Detection:<br>Output Distribution-Based Contamination Detection in&nbsp;Small&nbsp;Language&nbsp;Models</h1>
 
 <p align="center">
   <img src="paper_preview.png" width="600" alt="Paper first page" />
