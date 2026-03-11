@@ -1,11 +1,13 @@
 # No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models
 
 <p align="center">
-  <img src="paper_preview.png" width="600" alt="Paper first page" />
+  <img src="paper_preview.png" width="400" alt="Paper first page" />
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2603.03203"><strong>📄 Read the paper on arXiv</strong></a>
+  <a href="https://arxiv.org/abs/2603.03203">
+    <img src="https://img.shields.io/badge/arXiv-2603.03203-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv" />
+  </a>
 </p>
 
 ## Abstract
@@ -65,6 +67,12 @@ tests/                            # Unit tests
       url={https://arxiv.org/abs/2603.03203}, 
 }
 ```
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omer-sela)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=d4wmWAQAAAAJ)
+[![Amazon Science](https://img.shields.io/badge/Amazon%20Science-FF9900?style=flat&logo=amazon&logoColor=white)](https://www.amazon.science/author/omer-sela)
 
 ## References
 
