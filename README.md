@@ -12,13 +12,7 @@
 
 ## Abstract
 
-CDD (Contamination Detection via output Distribution) identifies data contamination by measuring the peakedness of a model's sampled outputs. We study the conditions under which this approach succeeds and fails on small language models (70M–410M parameters). Using controlled contamination experiments on GSM8K, HumanEval, and MATH, we find that CDD is unreliable: it performs at chance level in the majority of contaminated conditions, while simpler probability-based methods (perplexity, Min-k% Prob) consistently detect the contamination. CDD only succeeds when training produces memorization strong enough to collapse the output distribution — a condition that parameter-efficient fine-tuning often prevents.
-
-## Key Findings
-
-- CDD performs at chance in 22 out of 27 tested conditions (3 FT methods × 3 contamination levels × 3 datasets), while perplexity and Min-k% Prob exceed chance in 24–25 conditions
-- Probability-based methods detect contamination even at the lowest contamination level (c=1), where CDD provides zero signal
-- The pattern holds across mathematical reasoning (GSM8K), code generation (HumanEval), and competition mathematics (MATH)
+CDD, or Contamination Detection via output Distribution, identifies data contamination by measuring the peakedness of a model's sampled outputs. We study the conditions under which this approach succeeds and fails on small language models ranging from 70M to 410M parameters. Using controlled contamination experiments on GSM8K, HumanEval, and MATH, we find that CDD's effectiveness depends critically on whether fine-tuning produces verbatim memorization. In the majority of conditions we test, CDD performs at chance level even when the data is verifiably contaminated and detectable by simpler methods. We show that probability-based methods, specifically perplexity and Min-k% Prob, outperform CDD in all conditions where any method exceeds chance, suggesting that CDD's peakedness-based approach is insufficient for contamination detection in small language models. Code will be made available upon publication.
 
 ## Setup
 
